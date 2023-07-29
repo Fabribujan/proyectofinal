@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Inicio {
+    background-color: skyblue;
+}
+.Novedades {
+    background-color: turquoise;
+}
+.guias {
+    background-image: url(https://1.bp.blogspot.com/-YgQcH40g8kA/V_vThoD7NEI/AAAAAAAAAcs/cvsSH1Lz6xY829R3nG5t1FS2n4g-85nhwCLcB/s1600/GAME_ON__Widescreen_.jpg);
+    background-size: cover;
+}
+.juego{
+    border: 2px black double;
+    width: 300px;
+    height: 400px;
+    margin: 15px 10px;
+    padding: 5px 5px;
+}
+.textoProductos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: red;
+    text-transform: uppercase;
+}
+.productos{
+    background-color: turquoise;
+}
+iframe{
+    width: 400px;
+    height: 300px; 
+}
+.linkNovedades{
+    color: aliceblue;
+    list-style: lower-roman;
+}
+.guiasNovedades{
+    text-align: center;
+    color: skyblue;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 100px;
+    height: 70px;
+}
+h1{
+    text-align: center;
+    color: darkcyan;
+ }
+form{
+    margin-left: 400px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row-reverse;
+}
+footer{
+    display:flex;
+}
