@@ -66,3 +66,12 @@ main{
     display: flex;
     align-items: center;
 }
+nav{
+    background-color: black;
+    padding: 10px;
+}
+.enlaceNav{
+    background: sandybrown;
+    color: aquamarine;
+    padding: 10px 30px;
+}
