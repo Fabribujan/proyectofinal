@@ -62,3 +62,7 @@ section{
 footer{
     display:flex;
 }
+main{
+    display: flex;
+    align-items: center;
+}
