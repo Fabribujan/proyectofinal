@@ -4,23 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi proyecto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos/estilos.css">
 </head>
 <img class="logo" src="img/4.jpg" alt="logo">
 <body class="inicio">
-<header>
-     <h1><b>Inicio</b></h1>
+<header class="menuInicio">
+     <h1><b>Bienvenidos</b></h1>
+
+     <a href="#menu"></a>
 <nav>
+<div>
+        <input type="checkbox" class="menu" hidden>
+</div>
+<ul>
+        <li>
         <a href="index.html" class="enlaceNav">inicio</a>
+        </li>
+
+        <li>
         <a href="paginas/guiasynovedades.html" class="enlaceNav">guias</a>
+        </li>
+
+        <li>
         <a href="paginas/productos.html" class="enlaceNav">productos</a>
+        </li>
+
+        <li>
         <a href="paginas/conocenos.html" class="enlaceNav">conocenos</a>
+        </li>
+
+        <li>
         <a href="paginas/contacto.html" class="enlaceNav">contacto</a>
+        </li>
+</ul>
 </nav>
-<p>aaaaaa</p>
+<label for="navBar" class="menuHam">
+<div></div>
+<div></div>
+<div></div>
+</label>
 </header>
 <footer>
         <p>todos los derechos reservados</p>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
